@@ -1,0 +1,14 @@
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="{{ '/' | relative_url }}" class="nav-brand">N. I. S. Mohammad</a>
+    <div class="nav-links" id="navLinks">
+      <a href="{{ '/' | relative_url }}" {% if page.nav == 'home' %}class="active"{% endif %}>Home</a>
+      <a href="{{ '/publications' | relative_url }}" {% if page.nav == 'publications' %}class="active"{% endif %}>Publications</a>
+      <a href="{{ '/experience' | relative_url }}" {% if page.nav == 'experience' %}class="active"{% endif %}>Experience</a>
+      <a href="{{ '/honors' | relative_url }}" {% if page.nav == 'honors' %}class="active"{% endif %}>Honors &amp; Talks</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>

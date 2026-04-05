@@ -1,0 +1,57 @@
+# ──────────────────────────────────────────────
+# Site Settings — Noor Islam S. Mohammad
+# ──────────────────────────────────────────────
+
+title: "Noor Islam S. Mohammad"
+description: >-
+  Academic homepage of Noor Islam S. Mohammad — M.Sc. in CS at Istanbul Technical
+  University, admitted to NYU. Research in Trustworthy AI, Multimodal Learning, and NLP.
+url: "https://nislam-sm.github.io"
+baseurl: ""
+
+# Author
+author:
+  name: "Noor Islam S. Mohammad"
+  email: "noor.islam.sm@gmail.com"
+  google_scholar: "https://scholar.google.com/citations?user=hvBAaWwAAAAJ&hl=en"
+  github: "https://github.com/nislam-sm"
+  researchgate: "https://www.researchgate.net/profile/Noor-Islam-S-Mohammad"
+  orcid: "https://orcid.org/0009-0007-8823-6681"
+  nyu_profile: "https://wp.nyu.edu/noorai/"
+  cv_url: "https://nislam-sm.github.io/papers/ni-sm.pdf"
+  bio_link: "https://bio.link/nislam/"
+
+# Build
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Theme (GitHub Pages compatible)
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO
+lang: en
+twitter:
+  card: summary
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+
+# Collections (optional future use)
+collections_dir: ""
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
